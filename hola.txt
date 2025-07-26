@@ -1,0 +1,7 @@
+class public Hola
+
+public satitic void main(String[] args){
+
+System.out.prinln("Hola mundo");
+
+}
