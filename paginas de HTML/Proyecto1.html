@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registro evento</title>
+</head>
+<body>
+    <h1 id="inicio">Festival "NUBE NEGRA"</h1>
+    <h2><b><u>Índice</u></b></h2>
+    <p><a href="#imagen">imagen del concierto</a></p>
+    <p><a href="#video">Video de introduccion</a></p>
+    <p><a href="#horarios">Horarios de los conciertos</a></p>
+    <p><a href="#confirmacion">Datos de confirmacion</a></p>
+    <p><a href="#condiciones">Aceptar terminos y condiciones</a></p>
+
+    <p id="imagen"><b>Poster del concierto</b></p>
+    <img src="Un festival nocturno.png" alt="imgaen" width="300" height="300">
+
+    <p id = "video"><b>Video de introduccion</b></p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zyqt2avPkoA?si=Umtvq2VMgHZ_C0LF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   
+    <h2 id="horarios"><b><u>Horarios de los conciertos</u></b></h2>
+    
+    <table border="1">
+     <tr>
+     <th>Hora</th>
+     <th>Artista</th>
+     <th>Escenario</th>
+    </tr>
+    <tr>
+     <td>10:50 am</td>
+     <td>Martin Garrix</td>
+     <td>Norte</td>
+    </tr>
+
+    <tr>
+        <td>12:00 pm</td>
+        <td>Tiesto</td>
+        <td>Sur</td>
+    </tr>
+
+    <tr>
+        <td>1:50 pm</td>
+        <td>Harwell</td>
+        <td>Oeste</td>
+    </tr>
+
+    <tr>
+        <td>3:00 pm</td>
+        <td>Libre</td>
+        <td>libre</td>
+    </tr>
+
+    <tr>
+        <td>4:50 pm</td>
+        <td>Skrillex</td>
+        <td>Norte</td>
+    </tr>
+    </table>
+
+    <h2 id="confirmacion"><b>Relleno los datos para confirmar su asistencia</b></h2>
+    <form action="">
+        <p><label for="nombre">Nombre: <input type="text" id="nombre"></label></p>
+        <p><label for="edad">Edad: <input type="text" id="edad"></label></p>
+        <p><b>¿Por que quiere asistir?</b></p> <br>
+        <p><label for="Comentario">Comentario: <textarea name="omentario" ></textarea></label></p> <br>
+
+        <p><b>Elija el tipo de entrada (General o VIP)</b></p>
+            <input type="radio" name="tipo" id="general">
+            <label for="general">General</label> <br>
+            <input type="radio" name="tipo" id="vip">
+            <label for="vip">VIP</label>
+            <br>    
+        
+        <p id="condiciones"><b>Acepta los terminos y condiciones</b></p>
+            <input type="checkbox">
+            <label for="terminos">Aceptar</label> <br>
+
+
+        <p>Si completo los datos requeridos preciones el boton  <b>"Enviar"</b></p> 
+        <button type="submit">Enviar</button>
+    </form>
+    <p><a href="#inicio"><b>REGRESAR ARRIBA</b></a></p>
+</body>
+</html>

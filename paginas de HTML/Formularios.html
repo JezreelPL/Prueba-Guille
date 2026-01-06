@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Formulario</title>
+</head>
+<body>
+  <h1>Complete los datos requeridos </h1>
+  <form action="">
+    <p><label for="nombre">Nombre: <input type="text" id = "nombre"></label></p>
+    <p><label for="apellido">Apellido: <input type="text" id = "apellido"></label></p>
+    <p><label for="edad">Edad: <input type="text" id = "edad"></label></p>
+    <p><label for="comentario">Comentario: <textarea name="" id="comentario" ></textarea></label></p>
+    
+    <p><label for="estatura">Estatura:
+      <select  id="estatura">
+        <option value="< 1.50"> <1.50m </option>
+        <option value="1.60 a 1.70">1.60m a 1.70m</option>
+        <option value="1.71 a 1.80" >1.71m a 1.80m</option>
+        <option value=">1.81">>1.81m</option>        
+      </select>
+      </label></p>
+    
+    <p><b>Color de ojos</b></p>
+    <input type="checkbox" value = "verde" >
+    <label>Verde</label> <br>
+    <input type="checkbox" value = "marron">
+    <label >Marrón</label> <br>
+    <input type="checkbox" value = "azul">
+    <label >Azules</label> <br>
+    <input type="checkbox" value = "negro">
+    <label >Negro</label> <br>
+    
+  
+  <p><b>Género</b></p>
+
+<input type="radio" name="genero" value="hombre" id="hombre">
+<label for="hombre">Hombre</label> <br>
+
+<input type="radio" name="genero" value="Mujer" id="mujer">
+<label for="mujer">Mujer</label> <br>
+
+<input type="radio" name="genero" value="otro" id="otro">
+<label for="otro">Prefiero no decirlo</label> <br>
+    
+    
+    <br>
+    <button type = "submit">Enviar</button>
+    
+  </form>
+</body>
+</html>

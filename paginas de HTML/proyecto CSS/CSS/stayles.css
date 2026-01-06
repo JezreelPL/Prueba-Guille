@@ -1,0 +1,67 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: radial-gradient(circle, #fffd82, #f5d300); /* Crea un efecto de iluminación desde el centro */
+    margin: 0;
+    padding: 20px;
+}
+
+a:hover{
+background-color: red;
+color: blue;
+}
+
+* {
+    box-sizing: border-box; 
+}
+
+.texto {
+    color: black;
+    text-align: center; /* Para que los títulos también estén centrados */
+}
+
+.texto2 {
+    line-height: 1.5;
+    max-width: 800px;   /* Evita que el texto sea demasiado ancho */
+    margin: 0 auto;     /* Centra el bloque de texto */
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;    /* Da espacio arriba y abajo de las imágenes/videos */
+}
+
+
+.bloque1{
+    background-color: white;
+    padding: 20px 40px; /* Más espacio a la izquierda para los puntos */
+    border-radius: 15px;
+    list-style-type: square; /* Cambia los puntos por cuadrados */
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+    max-width: 20% ;
+}
+
+.boton_volver{
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 15px;
+    max-width: 16%;
+    margin-left: auto; 
+    margin-right: 0;
+    font-size: 20px;
+}
+
+.titulo{
+background-color: aliceblue;
+padding: 20px 40px;
+border-radius: 15px;
+max-width: 50%;
+}
+
+.titulo1{
+background-color: aliceblue;
+padding: 20px 40px;
+border-radius: 15px;
+max-width: 35%;
+}
